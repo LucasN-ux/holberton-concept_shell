@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <unistd.h>
+
+/** 
+* main - prints the PID of the parent process.
+* Return: 0
+*/
+int main (void)
+{
+	printf("%d\n", getppid());
+	return(0);
+}
